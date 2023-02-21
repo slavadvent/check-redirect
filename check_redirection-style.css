@@ -1,0 +1,64 @@
+/**
+ * check_redirection-style.css
+ */
+
+* {
+    box-sizing: border-box;
+}
+
+#cr-flex-container, #cr-flex-container-change {
+    /*background: rgb(0, 150, 208);*/
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+#cr-flex-container > div {
+    height: 150px;
+    width: 30%;
+    margin: 0.1%;
+    padding: 5px 0;
+}
+
+#change-links {
+    visibility: hidden;
+}
+
+#cr-flex-container-change > .checkbox_change{
+    width: 23%;
+    margin: 0.1%;
+    padding: 5px 0;
+    height: 100px;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+progress {
+    width: 100%;
+    display: block;
+    margin: 5px auto;
+}
+
+#cr-progress-bar-block {
+    visibility: hidden;
+}
+
+#title-progress-bar {
+    text-align: center;
+    height: 17px;
+    font-size: 85%;
+}
+
+#cr-submit-change {
+    visibility: hidden;
+}
